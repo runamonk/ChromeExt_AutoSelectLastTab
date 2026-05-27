@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Auto-Select Last Active Tab",
+  "version": "1.0.0",
+  "description": "Automatically selects the last used or active tab when a tab is moved to a new window or closed.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Auto-Select Last Active Tab"
+  }
+}
